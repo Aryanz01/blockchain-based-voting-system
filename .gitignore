@@ -5,7 +5,16 @@
 /.pnp
 .pnp.js
 
-node_modules/
+
+node_modules
+
+# Ignore node_modules in both frontend and backend
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore .env files in the backend
+backend/.env
+
 
 # testing
 /coverage
